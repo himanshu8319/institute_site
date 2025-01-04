@@ -1,0 +1,139 @@
+.logo{
+  margin-top: 2%;
+  width: 400px;
+}
+
+ul{
+    list-style-type: none;
+    margin-left: 35%;
+    padding: 0%;
+    width: 7%;
+    margin-top: -5%;
+   
+    display: flex;
+    flex-direction: row;
+  }
+
+  li a{
+    display: block;
+    color: black;
+    padding: 16px 20px;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  li a.active{ 
+    color: rgb(8, 0, 0);  
+  }
+
+  li a.active:hover{
+    border-bottom: 5px solid chartreuse;
+  }  
+
+
+  li a:hover:not(.active){
+    color: rgb(10, 2, 2);
+    text-align: center;
+    border-bottom: 5px solid chartreuse;
+  }
+
+  button{
+    width: fit-content;
+    font-weight: bold;
+    background-color: blue;
+  }
+.button{
+    display: flex;
+    flex-direction: row;
+    margin-left: 85%;
+    padding: 15px;
+  }
+
+  .nav{
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    margin-top: -3%;
+    font-size: 20px;
+  }
+  .img{
+    width: 1350px;
+    height: 600px;
+  }
+
+  .s{
+    margin-top: 2%;
+    margin-left: 5%;
+  }
+
+  .courses{
+    margin-top: 2%;
+    margin-left: 3%;
+  }
+  .head{
+    font-size: 60px;
+    font-weight: bold;
+    font-style: italic;
+    background-color: rgb(6, 37, 48);
+    padding: 30px;
+    text-align: center;
+    color: aliceblue;
+  }
+
+  ol{
+    margin: 2%;
+    font-size: 25px;
+    padding: 50px;
+    background-color: gainsboro;
+  }
+  ol li:hover{
+    font-size: 40px;
+    color: rgb(12, 39, 75);
+  }
+
+  .cor{
+    margin-left: 65%;
+    margin-top: -20%;
+    width: 400px;
+    height: 250px;
+  }
+  .cor:hover{
+    width: 450px;
+    height: 300px;
+  }
+  
+  .about{
+    margin-left: 55%;
+    margin-top: -28%;
+  }
+
+  fieldset{
+   
+    padding: 20px;
+    font-size: 30px;
+  }
+  form{
+    background-color: rgb(227, 232, 241);
+    margin-top: 5%;
+   
+    
+    padding: 40px;
+    box-shadow: 0px 0px 30px 15px  rgb(146, 166, 197);
+}
+input{
+    box-shadow: 0px 0px 30px  rgb(120, 182, 252);
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.ta{
+    padding: 80px;
+}
+
+.cert{
+  margin-top: 15%;
+  margin-left: 2%;
+}
+
+
+  
